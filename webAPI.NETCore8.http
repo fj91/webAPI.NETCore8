@@ -1,0 +1,14 @@
+@webAPI.NETCore8_HostAddress = https://localhost:5245
+
+GET {{webAPI.NETCore8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+POST {{ContosoPizza_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
